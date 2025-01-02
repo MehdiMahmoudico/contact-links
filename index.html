@@ -1,20 +1,59 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Links</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
-        a { display: block; margin: 20px; padding: 15px; background-color: #0073e6; color: white; text-decoration: none; font-size: 18px; border-radius: 5px; }
-        a:hover { background-color: #005bb5; }
+        body {
+            background-color: #f4f7fa;
+            font-family: 'Arial', sans-serif;
+            margin-top: 50px;
+        }
+        .container {
+            max-width: 600px;
+        }
+        .card {
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            background-color: white;
+        }
+        h1 {
+            margin-bottom: 30px;
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #333;
+        }
+        .btn-custom {
+            display: block;
+            margin: 10px 0;
+            padding: 15px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            font-size: 1.1rem;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .btn-custom:hover {
+            background-color: #0056b3;
+        }
     </style>
 </head>
 <body>
-    <h1>Click the Links Below</h1>
-    <a href="https://github.com/MehdiMahmoudico" target="_blank">GitHub</a>
-    <a href="https://wa.me/55485124" target="_blank">WhatsApp</a>
-    <a href="https://www.linkedin.com/mynetwork/grow/?skipRedirect=true" target="_blank">LinkedIn</a>
+
+    <div class="container">
+        <div class="card">
+            <h1>Contact Links</h1>
+            <a href="https://github.com/MehdiMahmoudico" class="btn-custom" target="_blank">GitHub</a>
+            <a href="https://wa.me/55485124" class="btn-custom" target="_blank">WhatsApp</a>
+            <a href="https://www.linkedin.com/mynetwork/grow/?skipRedirect=true" class="btn-custom" target="_blank">LinkedIn</a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
